@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="1d7577cace924e02ae47e83d0e23f663" Name="Diagram1">
+        <EntityTypeShape EntityType="DB_BIPRODUCAO_ODS.CADASTRO" Width="1.5" PointX="10.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_BIPRODUCAO_ODS.dtproperty" Width="1.5" PointX="10.75" PointY="5.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_BIPRODUCAO_ODS.sysdiagram" Width="1.5" PointX="10.75" PointY="9.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_BIPRODUCAO_ODS.TB_ODS_AGENTECOBRADOR" Width="1.5" PointX="12.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_BIPRODUCAO_ODS.TB_ODS_AGRUPAMENTO" Width="1.5" PointX="0.75" PointY="52.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_BIPRODUCAO_ODS.TB_ODS_ASSESSORIA" Width="1.5" PointX="0.75" PointY="12.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_BIPRODUCAO_ODS.TB_ODS_ASSESSORIA_FAIXA" Width="1.5" PointX="2.75" PointY="12.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_BIPRODUCAO_ODS.TB_ODS_ASSESSORIA_PRODUTO" Width="1.5" PointX="12.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_BIPRODUCAO_ODS.TB_ODS_AVISO_CREDITO" Width="1.5" PointX="12.75" PointY="7.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_BIPRODUCAO_ODS.TB_ODS_AVISO_CREDITO_FOLLOWUP" Width="1.5" PointX="10.75" PointY="12.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_BIPRODUCAO_ODS.TB_ODS_CADASTRO_ERROS" Width="1.5" PointX="12.75" PointY="12.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_BIPRODUCAO_ODS.TB_ODS_CANAL" Width="1.5" PointX="0.75" PointY="50.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_BIPRODUCAO_ODS.TB_ODS_CEP" Width="1.5" PointX="11.25" PointY="43.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_BIPRODUCAO_ODS.TB_ODS_CLASS_CORRETOR" Width="1.5" PointX="5.25" PointY="50.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_BIPRODUCAO_ODS.TB_ODS_CLOSING_RATIO" Width="1.5" PointX="4.75" PointY="13.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_BIPRODUCAO_ODS.TB_ODS_COBERTURA" Width="1.5" PointX="6.75" PointY="13.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_BIPRODUCAO_ODS.TB_ODS_COMISSAO_ANTECIPADA_DETALHES" Width="1.5" PointX="10.5" PointY="47.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_BIPRODUCAO_ODS.TB_ODS_CONTA_KVW" Width="1.5" PointX="14.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_BIPRODUCAO_ODS.TB_ODS_CONTROLE_EMISSAO_ANTECIPADA" Width="1.5" PointX="10.5" PointY="57" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_BIPRODUCAO_ODS.TB_ODS_CORRENTISTA" Width="1.5" PointX="14.75" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_BIPRODUCAO_ODS.TB_ODS_CORRETOR" Width="1.5" PointX="3" PointY="50.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_BIPRODUCAO_ODS.TB_ODS_CORRETOR_ASSESSORIA" Width="1.5" PointX="14.75" PointY="7.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_BIPRODUCAO_ODS.TB_ODS_COTACAO_AUTO" Width="1.5" PointX="14.75" PointY="10.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_BIPRODUCAO_ODS.TB_ODS_COTACAO_AUTO_UNICIDADE" Width="1.5" PointX="16.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_BIPRODUCAO_ODS.TB_ODS_COTACAO_RE" Width="1.5" PointX="16.75" PointY="13.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_BIPRODUCAO_ODS.TB_ODS_COTACAO_SSC" Width="1.5" PointX="18.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_BIPRODUCAO_ODS.TB_ODS_CREDITOS_ANTECIPADOS" Width="1.5" PointX="6.75" PointY="18.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_BIPRODUCAO_ODS.TB_ODS_CREDITOS_ANTECIPADOS_HISTORICO" Width="1.5" PointX="8.75" PointY="18.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_BIPRODUCAO_ODS.TB_ODS_DAC_CONTA_RATEIO" Width="1.5" PointX="18.75" PointY="10.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_BIPRODUCAO_ODS.TB_ODS_DAC_PARAMETRO" Width="1.5" PointX="10.75" PointY="18.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_BIPRODUCAO_ODS.TB_ODS_DAC_RATEIO" Width="1.5" PointX="18.75" PointY="14.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_BIPRODUCAO_ODS.TB_ODS_DAC_RATEIO_EMISSAO" Width="1.5" PointX="0.75" PointY="19.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_BIPRODUCAO_ODS.TB_ODS_DAF" Width="1.5" PointX="2.75" PointY="19.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_BIPRODUCAO_ODS.TB_ODS_DETALHE_CLOSING_RATIO" Width="1.5" PointX="20.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_BIPRODUCAO_ODS.TB_ODS_DETALHE_PARCELA" Width="1.5" PointX="21.75" PointY="42.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_BIPRODUCAO_ODS.TB_ODS_DETALHE_PROPOSTA" Width="1.5" PointX="20.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_BIPRODUCAO_ODS.TB_ODS_DETALHE_SINISTRO" Width="1.5" PointX="18" PointY="77" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_BIPRODUCAO_ODS.TB_ODS_DOMINIO" Width="1.5" PointX="20.75" PointY="8.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_BIPRODUCAO_ODS.TB_ODS_EMISSAO" Width="1.5" PointX="8.25" PointY="46.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_BIPRODUCAO_ODS.TB_ODS_EMISSAO_ANTERIOR" Width="1.5" PointX="15.75" PointY="36.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_BIPRODUCAO_ODS.TB_ODS_ENQUADRAMENTO" Width="1.5" PointX="20.75" PointY="11.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_BIPRODUCAO_ODS.TB_ODS_ENTIDADE" Width="1.5" PointX="20.75" PointY="16.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_BIPRODUCAO_ODS.TB_ODS_EVENTO" Width="1.5" PointX="8" PointY="9.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_BIPRODUCAO_ODS.TB_ODS_EVENTOS_CONTABEIS" Width="1.5" PointX="16.75" PointY="20.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_BIPRODUCAO_ODS.TB_ODS_EXECUTIVO" Width="1.5" PointX="0.75" PointY="55.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_BIPRODUCAO_ODS.TB_ODS_EXTRATO_COMISSAO" Width="1.5" PointX="18.75" PointY="20.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_BIPRODUCAO_ODS.TB_ODS_F_COBRANCA" Width="1.5" PointX="20.75" PointY="19.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_BIPRODUCAO_ODS.TB_ODS_F_COMISSAO" Width="1.5" PointX="10.75" PointY="21.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_BIPRODUCAO_ODS.TB_ODS_F_EMISSAO" Width="1.5" PointX="22.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_BIPRODUCAO_ODS.TB_ODS_F_ITEM_QUESTIONARIO" Width="1.5" PointX="12.75" PointY="22.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_BIPRODUCAO_ODS.TB_ODS_F_SINISTRO" Width="1.5" PointX="24.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_BIPRODUCAO_ODS.TB_ODS_FIPECAFI_PREMIO" Width="1.5" PointX="0.75" PointY="24.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_BIPRODUCAO_ODS.TB_ODS_FIPECAFI_SERVICO" Width="1.5" PointX="2.75" PointY="24.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_BIPRODUCAO_ODS.TB_ODS_FIPECAFI_SINISTRO" Width="1.5" PointX="4.75" PointY="24.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_BIPRODUCAO_ODS.TB_ODS_FT_PPNG_SUN" Width="1.5" PointX="24.75" PointY="15.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_BIPRODUCAO_ODS.TB_ODS_FT_SUN" Width="1.5" PointX="22.75" PointY="24.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_BIPRODUCAO_ODS.TB_ODS_HIERARQUIA" Width="1.5" PointX="5.25" PointY="69.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_BIPRODUCAO_ODS.TB_ODS_ITEM" Width="1.5" PointX="13.5" PointY="49.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_BIPRODUCAO_ODS.TB_ODS_ITEM_COBERTURA" Width="1.5" PointX="15.75" PointY="29.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_BIPRODUCAO_ODS.TB_ODS_ITEM_DETALHE" Width="1.5" PointX="15.75" PointY="62.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_BIPRODUCAO_ODS.TB_ODS_ITEM_PPNG" Width="1.5" PointX="14.75" PointY="23.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_BIPRODUCAO_ODS.TB_ODS_ITEM_QUESTIONARIO" Width="1.5" PointX="15.75" PointY="71" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_BIPRODUCAO_ODS.TB_ODS_JUDICIAL" Width="1.5" PointX="24.75" PointY="23.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_BIPRODUCAO_ODS.TB_ODS_LANCAMENTO_COMISSAO" Width="1.5" PointX="26.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_BIPRODUCAO_ODS.TB_ODS_LOG_GRAVA_DADOS" Width="1.5" PointX="6.75" PointY="26.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_BIPRODUCAO_ODS.TB_ODS_MATRIZ" Width="1.5" PointX="1.5" PointY="68.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_BIPRODUCAO_ODS.TB_ODS_MOEDA_REF" Width="1.5" PointX="5.75" PointY="6.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_BIPRODUCAO_ODS.TB_ODS_NATUREZA" Width="1.5" PointX="26.75" PointY="8.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_BIPRODUCAO_ODS.TB_ODS_OBJETO" Width="1.5" PointX="26.75" PointY="11.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_BIPRODUCAO_ODS.TB_ODS_OCORRENCIAS" Width="1.5" PointX="21.75" PointY="48.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_BIPRODUCAO_ODS.TB_ODS_OCORRENCIAS_OSCILACAO_CAMBIAL" Width="1.5" PointX="26.75" PointY="14.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_BIPRODUCAO_ODS.TB_ODS_OPERACIONAL" Width="1.5" PointX="17.75" PointY="26.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_BIPRODUCAO_ODS.TB_ODS_PAGAMENTO_SINISTRO" Width="1.5" PointX="26.75" PointY="22.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_BIPRODUCAO_ODS.TB_ODS_PARAMETRO" Width="1.5" PointX="12.75" PointY="27.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_BIPRODUCAO_ODS.TB_ODS_PARAMETRO_ARQUIVO" Width="1.5" PointX="26.75" PointY="27.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_BIPRODUCAO_ODS.TB_ODS_PARCELA_COMISSAO_ITEM_COBERTURA" Width="1.5" PointX="16.5" PointY="50.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_BIPRODUCAO_ODS.TB_ODS_PARTCORRETOR" Width="1.5" PointX="10.5" PointY="52.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_BIPRODUCAO_ODS.TB_ODS_PARTCOSSEGURO" Width="1.5" PointX="16.5" PointY="46.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_BIPRODUCAO_ODS.TB_ODS_PARTRESSEGURO" Width="1.5" PointX="10.5" PointY="102.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_BIPRODUCAO_ODS.TB_ODS_PERFIL_COTACAO" Width="1.5" PointX="28.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_BIPRODUCAO_ODS.TB_ODS_PERFIL_COTACAO_RE" Width="1.5" PointX="28.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_BIPRODUCAO_ODS.TB_ODS_PLANO_CONTAS" Width="1.5" PointX="28.75" PointY="8.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_BIPRODUCAO_ODS.TB_ODS_PRODUTO" Width="1.5" PointX="6" PointY="45.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_BIPRODUCAO_ODS.TB_ODS_PRODUTO_VERSAO" Width="1.5" PointX="8.75" PointY="28.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_BIPRODUCAO_ODS.TB_ODS_PROPOSTA" Width="1.5" PointX="28.75" PointY="13.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_BIPRODUCAO_ODS.TB_ODS_RAMO" Width="1.5" PointX="3.75" PointY="46" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_BIPRODUCAO_ODS.TB_ODS_RECEPCAO_AUXILIAR" Width="1.5" PointX="28.75" PointY="19.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_BIPRODUCAO_ODS.TB_ODS_REGIAO_CEP_UF" Width="1.5" PointX="19.75" PointY="28.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_BIPRODUCAO_ODS.TB_ODS_REGIAO_CLOSING_RATIO" Width="1.5" PointX="28.75" PointY="24.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_BIPRODUCAO_ODS.TB_ODS_REGIAO_COTACAO" Width="1.5" PointX="28.75" PointY="28.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_BIPRODUCAO_ODS.TB_ODS_REGIAO_COTACAO_RE" Width="1.5" PointX="30.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_BIPRODUCAO_ODS.TB_ODS_REGIAO_PROPOSTA" Width="1.5" PointX="30.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_BIPRODUCAO_ODS.TB_ODS_REGIONAL" Width="1.5" PointX="1.5" PointY="64.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_BIPRODUCAO_ODS.TB_ODS_RESSEGURADOR" Width="1.5" PointX="0.75" PointY="5.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_BIPRODUCAO_ODS.TB_ODS_RESSEGURO_COBERTURA" Width="1.5" PointX="30.75" PointY="8.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_BIPRODUCAO_ODS.TB_ODS_RESSEGURO_EMISSAO_MANUAL" Width="1.5" PointX="3" PointY="1.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_BIPRODUCAO_ODS.TB_ODS_RESSEGURO_GERAL" Width="1.5" PointX="10.75" PointY="30.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_BIPRODUCAO_ODS.TB_ODS_RESSEGURO_PARAMETRO" Width="1.5" PointX="30.75" PointY="11.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_BIPRODUCAO_ODS.TB_ODS_RESSEGURO_SINISTRO" Width="1.5" PointX="3" PointY="7.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_BIPRODUCAO_ODS.TB_ODS_REVENDA" Width="1.5" PointX="16.5" PointY="58.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_BIPRODUCAO_ODS.TB_ODS_REVENDA_COTACAO" Width="1.5" PointX="12.75" PointY="30.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_BIPRODUCAO_ODS.TB_ODS_RISCO_SINISTRO" Width="1.5" PointX="30.75" PointY="14.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_BIPRODUCAO_ODS.TB_ODS_SEGMENTO" Width="1.5" PointX="0.75" PointY="47.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_BIPRODUCAO_ODS.TB_ODS_SEGURADORA" Width="1.5" PointX="6" PointY="53.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_BIPRODUCAO_ODS.TB_ODS_SEQUENCIAL" Width="1.5" PointX="30.75" PointY="17.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_BIPRODUCAO_ODS.TB_ODS_SINISTRO" Width="1.5" PointX="15.75" PointY="75.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_BIPRODUCAO_ODS.TB_ODS_SISTEMA" Width="1.5" PointX="5.75" PointY="9.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_BIPRODUCAO_ODS.TB_ODS_SUB_REGIONAL" Width="1.5" PointX="1.5" PointY="61.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_BIPRODUCAO_ODS.TB_ODS_SUCURSAL" Width="1.5" PointX="1.5" PointY="58.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_BIPRODUCAO_ODS.TB_ODS_SUN_HISTORICO" Width="1.5" PointX="30.75" PointY="20.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_BIPRODUCAO_ODS.TB_ODS_SUN_LANCAMENTOS" Width="1.5" PointX="5.75" PointY="1.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_BIPRODUCAO_ODS.TB_ODS_TIPO_COBRANCA" Width="1.5" PointX="6" PointY="56.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_BIPRODUCAO_ODS.TB_ODS_TIPO_PAGAMENTO_SINISTRO" Width="1.5" PointX="30.75" PointY="23.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_BIPRODUCAO_ODS.TB_ODS_TITULOS" Width="1.5" PointX="19.5" PointY="50.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_BIPRODUCAO_ODS.TB_ODS_TITULOS_RAMO_ITEM_COBERTURA" Width="1.5" PointX="21.75" PointY="58.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_BIPRODUCAO_ODS.TB_ODS_VEICULO_COTACAO" Width="1.5" PointX="30.75" PointY="27.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_BIPRODUCAO_ODS.CONT_SEG" Width="1.5" PointX="19.75" PointY="31.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_BIPRODUCAO_ODS.CORRETAG" Width="1.5" PointX="32.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_BIPRODUCAO_ODS.PREMIT" Width="1.5" PointX="32.75" PointY="7.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_BIPRODUCAO_ODS.RESCODIA" Width="1.5" PointX="32.75" PointY="20.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_BIPRODUCAO_ODS.RESCOM" Width="1.5" PointX="24.75" PointY="32.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_BIPRODUCAO_ODS.SEEMIT" Width="1.5" PointX="26.75" PointY="32.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_BIPRODUCAO_ODS.TB_AUX_PREMIO_SELECIONADO_RATEIO_DAC" Width="1.5" PointX="28.75" PointY="32.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_BIPRODUCAO_ODS.TB_ODS_AJUSTES_EST" Width="1.5" PointX="0.75" PointY="33.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_BIPRODUCAO_ODS.TB_ODS_CONTROLE_DATA_ETL" Width="1.5" PointX="34.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_BIPRODUCAO_ODS.TB_ODS_EVENTOSQUADROSFIP" Width="1.5" PointX="2.75" PointY="34.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_BIPRODUCAO_ODS.TB_ODS_MOEDA" Width="1.5" PointX="8" PointY="6" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_BIPRODUCAO_ODS.TB_ODS_PLANO_CONTAS_HISTORICO" Width="1.5" PointX="34.75" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_BIPRODUCAO_ODS.TB_ODS_SEGURADO" Width="1.5" PointX="4.75" PointY="34.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_BIPRODUCAO_ODS.TB_ODS_SUN_EVENTOS" Width="1.5" PointX="8" PointY="1" IsExpanded="true" />
+        <AssociationConnector Association="DB_BIPRODUCAO_ODS.FK_TB_ODS_AGRUPAMENTO_X_TB_ODS_CORRETOR" ManuallyRouted="false" />
+        <AssociationConnector Association="DB_BIPRODUCAO_ODS.FK_TB_ODS_AGRUPAMENTO_X_TB_ODS_EMISSAO" ManuallyRouted="false" />
+        <AssociationConnector Association="DB_BIPRODUCAO_ODS.FK_TB_ODS_AGRUPAMENTO_X_TB_ODS_REVENDA" ManuallyRouted="false" />
+        <AssociationConnector Association="DB_BIPRODUCAO_ODS.FK_TB_ODS_CANAL_X_TB_ODS_CORRETOR" ManuallyRouted="false" />
+        <AssociationConnector Association="DB_BIPRODUCAO_ODS.FK_TB_ODS_CEP_TB_ODS_REVENDA" ManuallyRouted="false" />
+        <AssociationConnector Association="DB_BIPRODUCAO_ODS.FK_TB_ODS_CEP_X_TB_ODS_ITEM" ManuallyRouted="false" />
+        <AssociationConnector Association="DB_BIPRODUCAO_ODS.FK_TB_ODS_CORRETOR_X_TB_ODS_CLASS_CORRETOR" ManuallyRouted="false" />
+        <AssociationConnector Association="DB_BIPRODUCAO_ODS.FK_TB_ODS_COMISSAO_ANTECIPADA_DETALHES_X_TB_ODS_EMISSAO" ManuallyRouted="false" />
+        <AssociationConnector Association="DB_BIPRODUCAO_ODS.FK_TB_ODS_CONTROLE_EMISSAO_ANTECIPADA_X_TB_ODS_EMISSAO" ManuallyRouted="false" />
+        <AssociationConnector Association="DB_BIPRODUCAO_ODS.FK_TB_ODS_CORRETOR_TB_ODS_PARTCORRETOR" ManuallyRouted="false" />
+        <AssociationConnector Association="DB_BIPRODUCAO_ODS.FK_TB_ODS_CORRETOR_X_TB_ODS_EMISSAO" ManuallyRouted="false" />
+        <AssociationConnector Association="DB_BIPRODUCAO_ODS.FK_TB_ODS_CORRETOR_X_TB_ODS_PARCELA_COMISSAO_ITEM_COBERTURA" ManuallyRouted="false" />
+        <AssociationConnector Association="DB_BIPRODUCAO_ODS.FK_TB_ODS_EXECUTIVO_X_TB_ODS_CORRETOR" ManuallyRouted="false" />
+        <AssociationConnector Association="DB_BIPRODUCAO_ODS.FK_TB_ODS_HIERARQUIA_X_TB_ODS_CORRETOR" ManuallyRouted="false" />
+        <AssociationConnector Association="DB_BIPRODUCAO_ODS.FK_TB_ODS_SEGMENTO_X_TB_ODS_CORRETOR" ManuallyRouted="false" />
+        <AssociationConnector Association="DB_BIPRODUCAO_ODS.FK_TB_ODS_DETALHE_PARCELA_X_TB_ODS_TITULOS" ManuallyRouted="false" />
+        <AssociationConnector Association="DB_BIPRODUCAO_ODS.FK_TB_ODS_DETALHE_SINISTRO_X_TB_ODS_SINISTRO" ManuallyRouted="false" />
+        <AssociationConnector Association="DB_BIPRODUCAO_ODS.FK_TB_ODS_EMISSAO_TB_ODS_REVENDA" ManuallyRouted="false" />
+        <AssociationConnector Association="DB_BIPRODUCAO_ODS.FK_TB_ODS_EMISSAO_X_TB_ODS_ITEM" ManuallyRouted="false" />
+        <AssociationConnector Association="DB_BIPRODUCAO_ODS.FK_TB_ODS_EMISSAO_X_TB_ODS_PARCELA_COMISSAO_ITEM_COBERTURA" ManuallyRouted="false" />
+        <AssociationConnector Association="DB_BIPRODUCAO_ODS.FK_TB_ODS_EMISSAO_X_TB_ODS_PARTCORRETOR" ManuallyRouted="false" />
+        <AssociationConnector Association="DB_BIPRODUCAO_ODS.FK_TB_ODS_EMISSAO_X_TB_ODS_TIPO_COBRANCA" ManuallyRouted="false" />
+        <AssociationConnector Association="DB_BIPRODUCAO_ODS.FK_TB_ODS_PARTCOSSEGURO_X_TB_ODS_EMISSAO" ManuallyRouted="false" />
+        <AssociationConnector Association="DB_BIPRODUCAO_ODS.FK_TB_ODS_PARTRESSEGURO_X_TB_ODS_EMISSAO" ManuallyRouted="false" />
+        <AssociationConnector Association="DB_BIPRODUCAO_ODS.FK_TB_ODS_PRODUTO_X_TB_ODS_EMISSAO" ManuallyRouted="false" />
+        <AssociationConnector Association="DB_BIPRODUCAO_ODS.FK_TB_ODS_SEGURADORA_X_TB_ODS_EMISSAO" ManuallyRouted="false" />
+        <AssociationConnector Association="DB_BIPRODUCAO_ODS.FK_TB_ODS_TITULOS_X_TB_ODS_EMISSAO" ManuallyRouted="false" />
+        <AssociationConnector Association="DB_BIPRODUCAO_ODS.FK_TB_ODS_EMISSAO_ANTERIOR_X_TB_ODS_ITEM" ManuallyRouted="false" />
+        <AssociationConnector Association="DB_BIPRODUCAO_ODS.FK_TB_ODS_SISTEMA_X_TB_ODS_EVENTO" ManuallyRouted="false" />
+        <AssociationConnector Association="DB_BIPRODUCAO_ODS.FK_TB_ODS_SUCURSAL_X_TB_ODS_EXECUTIVO" ManuallyRouted="false" />
+        <AssociationConnector Association="DB_BIPRODUCAO_ODS.FK_TB_ODS_ITEM_COBERTURA_X_TB_ODS_ITEM" ManuallyRouted="false" />
+        <AssociationConnector Association="DB_BIPRODUCAO_ODS.FK_TB_ODS_ITEM_DETALHE_X_TB_ODS_ITEM" ManuallyRouted="false" />
+        <AssociationConnector Association="DB_BIPRODUCAO_ODS.FK_TB_ODS_ITEM_QUESTIONARIO_X_TB_ODS_ITEM" ManuallyRouted="false" />
+        <AssociationConnector Association="DB_BIPRODUCAO_ODS.FK_TB_ODS_SINISTRO_X_TB_ODS_ITEM" ManuallyRouted="false" />
+        <AssociationConnector Association="DB_BIPRODUCAO_ODS.FK_TB_ODS_MATRIZ_X_TB_ODS_REGIONAL" ManuallyRouted="false" />
+        <AssociationConnector Association="DB_BIPRODUCAO_ODS.FK_TB_ODS_MOEDA_X_TB_ODS_MOEDA_REF" ManuallyRouted="false" />
+        <AssociationConnector Association="DB_BIPRODUCAO_ODS.FK_TB_ODS_OCORRENCIAS_X_TB_ODS_TITULOS" ManuallyRouted="false" />
+        <AssociationConnector Association="DB_BIPRODUCAO_ODS.FK_TB_ODS_SEGURADORA_X_TB_ODS_PARTCOSSEGURO" ManuallyRouted="false" />
+        <AssociationConnector Association="DB_BIPRODUCAO_ODS.FK_TB_ODS_PRODUTO_X_TB_ODS_RAMO" ManuallyRouted="false" />
+        <AssociationConnector Association="DB_BIPRODUCAO_ODS.FK_TB_ODS_RAMO_X_TB_ODS_TITULOS" ManuallyRouted="false" />
+        <AssociationConnector Association="DB_BIPRODUCAO_ODS.FK_TB_ODS_REGIONAL_X_TB_ODS_SUB_REGIONAL" ManuallyRouted="false" />
+        <AssociationConnector Association="DB_BIPRODUCAO_ODS.FK_TB_ODS_RESSEGURADOR_X_TB_ODS_RESSEGURO_EMISSAO_MANUAL" ManuallyRouted="false" />
+        <AssociationConnector Association="DB_BIPRODUCAO_ODS.FK_TB_ODS_RESSEGURADOR_X_TB_ODS_RESSEGURO_SINISTRO" ManuallyRouted="false" />
+        <AssociationConnector Association="DB_BIPRODUCAO_ODS.FK_TB_ODS_SUCURSAL_X_TB_ODS_SUB_REGIONAL" ManuallyRouted="false" />
+        <AssociationConnector Association="DB_BIPRODUCAO_ODS.FK_TB_ODS_SUN_LANCAMENTOS_X_TB_ODS_SUN_EVENTOS" ManuallyRouted="false" />
+        <AssociationConnector Association="DB_BIPRODUCAO_ODS.FK_TB_ODS_TITULOS_RAMO_ITEM_COBERTURA_X_TB_ODS_TITULOS" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

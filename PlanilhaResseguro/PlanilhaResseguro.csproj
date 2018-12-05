@@ -12,6 +12,22 @@
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <Deterministic>true</Deterministic>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>C:\Users\matheusmr\Desktop\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>1</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -32,9 +48,35 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>BC79AC4B646FF616383312C4CA75EF7C36C15728</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>PlanilhaResseguro_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>true</SignManifests>
+  </PropertyGroup>
   <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="EPPlus, Version=4.5.2.1, Culture=neutral, PublicKeyToken=ea159fdaa78159a1, processorArchitecture=MSIL">
+      <HintPath>..\packages\EPPlus.4.5.2.1\lib\net40\EPPlus.dll</HintPath>
+    </Reference>
+    <Reference Include="PresentationCore" />
     <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.configuration" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -46,14 +88,434 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Form1.cs">
+    <Compile Include="CADASTRO.cs">
+      <DependentUpon>MSSQLBID0.tt</DependentUpon>
+    </Compile>
+    <Compile Include="CONT_SEG.cs">
+      <DependentUpon>MSSQLBID0.tt</DependentUpon>
+    </Compile>
+    <Compile Include="CORRETAG.cs">
+      <DependentUpon>MSSQLBID0.tt</DependentUpon>
+    </Compile>
+    <Compile Include="dtproperty.cs">
+      <DependentUpon>MSSQLBID0.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model\PlanilhaResseguro.cs" />
+    <Compile Include="Presenter\PlanilhaResseguroPresenter.cs" />
+    <Compile Include="View\Form1.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
+    <Compile Include="View\Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="JiraForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="JiraForm.Designer.cs">
+      <DependentUpon>JiraForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MSSQLBID0.Context.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>MSSQLBID0.Context.tt</DependentUpon>
+    </Compile>
+    <Compile Include="MSSQLBID0.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>MSSQLBID0.tt</DependentUpon>
+    </Compile>
+    <Compile Include="MSSQLBID0.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>MSSQLBID0.edmx</DependentUpon>
+    </Compile>
+    <Compile Include="PREMIT.cs">
+      <DependentUpon>MSSQLBID0.tt</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RESCODIA.cs">
+      <DependentUpon>MSSQLBID0.tt</DependentUpon>
+    </Compile>
+    <Compile Include="RESCOM.cs">
+      <DependentUpon>MSSQLBID0.tt</DependentUpon>
+    </Compile>
+    <Compile Include="SEEMIT.cs">
+      <DependentUpon>MSSQLBID0.tt</DependentUpon>
+    </Compile>
+    <Compile Include="sysdiagram.cs">
+      <DependentUpon>MSSQLBID0.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TB_AUX_PREMIO_SELECIONADO_RATEIO_DAC.cs">
+      <DependentUpon>MSSQLBID0.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TB_ODS_AGENTECOBRADOR.cs">
+      <DependentUpon>MSSQLBID0.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TB_ODS_AGRUPAMENTO.cs">
+      <DependentUpon>MSSQLBID0.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TB_ODS_AJUSTES_EST.cs">
+      <DependentUpon>MSSQLBID0.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TB_ODS_ASSESSORIA.cs">
+      <DependentUpon>MSSQLBID0.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TB_ODS_ASSESSORIA_FAIXA.cs">
+      <DependentUpon>MSSQLBID0.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TB_ODS_ASSESSORIA_PRODUTO.cs">
+      <DependentUpon>MSSQLBID0.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TB_ODS_AVISO_CREDITO.cs">
+      <DependentUpon>MSSQLBID0.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TB_ODS_AVISO_CREDITO_FOLLOWUP.cs">
+      <DependentUpon>MSSQLBID0.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TB_ODS_CADASTRO_ERROS.cs">
+      <DependentUpon>MSSQLBID0.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TB_ODS_CANAL.cs">
+      <DependentUpon>MSSQLBID0.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TB_ODS_CEP.cs">
+      <DependentUpon>MSSQLBID0.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TB_ODS_CLASS_CORRETOR.cs">
+      <DependentUpon>MSSQLBID0.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TB_ODS_CLOSING_RATIO.cs">
+      <DependentUpon>MSSQLBID0.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TB_ODS_COBERTURA.cs">
+      <DependentUpon>MSSQLBID0.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TB_ODS_COMISSAO_ANTECIPADA_DETALHES.cs">
+      <DependentUpon>MSSQLBID0.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TB_ODS_CONTA_KVW.cs">
+      <DependentUpon>MSSQLBID0.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TB_ODS_CONTROLE_DATA_ETL.cs">
+      <DependentUpon>MSSQLBID0.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TB_ODS_CONTROLE_EMISSAO_ANTECIPADA.cs">
+      <DependentUpon>MSSQLBID0.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TB_ODS_CORRENTISTA.cs">
+      <DependentUpon>MSSQLBID0.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TB_ODS_CORRETOR.cs">
+      <DependentUpon>MSSQLBID0.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TB_ODS_CORRETOR_ASSESSORIA.cs">
+      <DependentUpon>MSSQLBID0.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TB_ODS_COTACAO_AUTO.cs">
+      <DependentUpon>MSSQLBID0.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TB_ODS_COTACAO_AUTO_UNICIDADE.cs">
+      <DependentUpon>MSSQLBID0.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TB_ODS_COTACAO_RE.cs">
+      <DependentUpon>MSSQLBID0.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TB_ODS_COTACAO_SSC.cs">
+      <DependentUpon>MSSQLBID0.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TB_ODS_CREDITOS_ANTECIPADOS.cs">
+      <DependentUpon>MSSQLBID0.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TB_ODS_CREDITOS_ANTECIPADOS_HISTORICO.cs">
+      <DependentUpon>MSSQLBID0.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TB_ODS_DAC_CONTA_RATEIO.cs">
+      <DependentUpon>MSSQLBID0.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TB_ODS_DAC_PARAMETRO.cs">
+      <DependentUpon>MSSQLBID0.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TB_ODS_DAC_RATEIO.cs">
+      <DependentUpon>MSSQLBID0.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TB_ODS_DAC_RATEIO_EMISSAO.cs">
+      <DependentUpon>MSSQLBID0.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TB_ODS_DAF.cs">
+      <DependentUpon>MSSQLBID0.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TB_ODS_DETALHE_CLOSING_RATIO.cs">
+      <DependentUpon>MSSQLBID0.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TB_ODS_DETALHE_PARCELA.cs">
+      <DependentUpon>MSSQLBID0.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TB_ODS_DETALHE_PROPOSTA.cs">
+      <DependentUpon>MSSQLBID0.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TB_ODS_DETALHE_SINISTRO.cs">
+      <DependentUpon>MSSQLBID0.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TB_ODS_DOMINIO.cs">
+      <DependentUpon>MSSQLBID0.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TB_ODS_EMISSAO.cs">
+      <DependentUpon>MSSQLBID0.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TB_ODS_EMISSAO_ANTERIOR.cs">
+      <DependentUpon>MSSQLBID0.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TB_ODS_ENQUADRAMENTO.cs">
+      <DependentUpon>MSSQLBID0.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TB_ODS_ENTIDADE.cs">
+      <DependentUpon>MSSQLBID0.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TB_ODS_EVENTO.cs">
+      <DependentUpon>MSSQLBID0.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TB_ODS_EVENTOSQUADROSFIP.cs">
+      <DependentUpon>MSSQLBID0.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TB_ODS_EVENTOS_CONTABEIS.cs">
+      <DependentUpon>MSSQLBID0.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TB_ODS_EXECUTIVO.cs">
+      <DependentUpon>MSSQLBID0.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TB_ODS_EXTRATO_COMISSAO.cs">
+      <DependentUpon>MSSQLBID0.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TB_ODS_FIPECAFI_PREMIO.cs">
+      <DependentUpon>MSSQLBID0.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TB_ODS_FIPECAFI_SERVICO.cs">
+      <DependentUpon>MSSQLBID0.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TB_ODS_FIPECAFI_SINISTRO.cs">
+      <DependentUpon>MSSQLBID0.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TB_ODS_FT_PPNG_SUN.cs">
+      <DependentUpon>MSSQLBID0.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TB_ODS_FT_SUN.cs">
+      <DependentUpon>MSSQLBID0.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TB_ODS_F_COBRANCA.cs">
+      <DependentUpon>MSSQLBID0.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TB_ODS_F_COMISSAO.cs">
+      <DependentUpon>MSSQLBID0.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TB_ODS_F_EMISSAO.cs">
+      <DependentUpon>MSSQLBID0.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TB_ODS_F_ITEM_QUESTIONARIO.cs">
+      <DependentUpon>MSSQLBID0.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TB_ODS_F_SINISTRO.cs">
+      <DependentUpon>MSSQLBID0.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TB_ODS_HIERARQUIA.cs">
+      <DependentUpon>MSSQLBID0.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TB_ODS_ITEM.cs">
+      <DependentUpon>MSSQLBID0.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TB_ODS_ITEM_COBERTURA.cs">
+      <DependentUpon>MSSQLBID0.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TB_ODS_ITEM_DETALHE.cs">
+      <DependentUpon>MSSQLBID0.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TB_ODS_ITEM_PPNG.cs">
+      <DependentUpon>MSSQLBID0.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TB_ODS_ITEM_QUESTIONARIO.cs">
+      <DependentUpon>MSSQLBID0.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TB_ODS_JUDICIAL.cs">
+      <DependentUpon>MSSQLBID0.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TB_ODS_LANCAMENTO_COMISSAO.cs">
+      <DependentUpon>MSSQLBID0.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TB_ODS_LOG_GRAVA_DADOS.cs">
+      <DependentUpon>MSSQLBID0.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TB_ODS_MATRIZ.cs">
+      <DependentUpon>MSSQLBID0.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TB_ODS_MOEDA.cs">
+      <DependentUpon>MSSQLBID0.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TB_ODS_MOEDA_REF.cs">
+      <DependentUpon>MSSQLBID0.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TB_ODS_NATUREZA.cs">
+      <DependentUpon>MSSQLBID0.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TB_ODS_OBJETO.cs">
+      <DependentUpon>MSSQLBID0.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TB_ODS_OCORRENCIAS.cs">
+      <DependentUpon>MSSQLBID0.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TB_ODS_OCORRENCIAS_OSCILACAO_CAMBIAL.cs">
+      <DependentUpon>MSSQLBID0.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TB_ODS_OPERACIONAL.cs">
+      <DependentUpon>MSSQLBID0.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TB_ODS_PAGAMENTO_SINISTRO.cs">
+      <DependentUpon>MSSQLBID0.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TB_ODS_PARAMETRO.cs">
+      <DependentUpon>MSSQLBID0.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TB_ODS_PARAMETRO_ARQUIVO.cs">
+      <DependentUpon>MSSQLBID0.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TB_ODS_PARCELA_COMISSAO_ITEM_COBERTURA.cs">
+      <DependentUpon>MSSQLBID0.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TB_ODS_PARTCORRETOR.cs">
+      <DependentUpon>MSSQLBID0.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TB_ODS_PARTCOSSEGURO.cs">
+      <DependentUpon>MSSQLBID0.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TB_ODS_PARTRESSEGURO.cs">
+      <DependentUpon>MSSQLBID0.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TB_ODS_PERFIL_COTACAO.cs">
+      <DependentUpon>MSSQLBID0.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TB_ODS_PERFIL_COTACAO_RE.cs">
+      <DependentUpon>MSSQLBID0.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TB_ODS_PLANO_CONTAS.cs">
+      <DependentUpon>MSSQLBID0.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TB_ODS_PLANO_CONTAS_HISTORICO.cs">
+      <DependentUpon>MSSQLBID0.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TB_ODS_PRODUTO.cs">
+      <DependentUpon>MSSQLBID0.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TB_ODS_PRODUTO_VERSAO.cs">
+      <DependentUpon>MSSQLBID0.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TB_ODS_PROPOSTA.cs">
+      <DependentUpon>MSSQLBID0.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TB_ODS_RAMO.cs">
+      <DependentUpon>MSSQLBID0.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TB_ODS_RECEPCAO_AUXILIAR.cs">
+      <DependentUpon>MSSQLBID0.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TB_ODS_REGIAO_CEP_UF.cs">
+      <DependentUpon>MSSQLBID0.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TB_ODS_REGIAO_CLOSING_RATIO.cs">
+      <DependentUpon>MSSQLBID0.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TB_ODS_REGIAO_COTACAO.cs">
+      <DependentUpon>MSSQLBID0.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TB_ODS_REGIAO_COTACAO_RE.cs">
+      <DependentUpon>MSSQLBID0.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TB_ODS_REGIAO_PROPOSTA.cs">
+      <DependentUpon>MSSQLBID0.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TB_ODS_REGIONAL.cs">
+      <DependentUpon>MSSQLBID0.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TB_ODS_RESSEGURADOR.cs">
+      <DependentUpon>MSSQLBID0.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TB_ODS_RESSEGURO_COBERTURA.cs">
+      <DependentUpon>MSSQLBID0.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TB_ODS_RESSEGURO_EMISSAO_MANUAL.cs">
+      <DependentUpon>MSSQLBID0.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TB_ODS_RESSEGURO_GERAL.cs">
+      <DependentUpon>MSSQLBID0.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TB_ODS_RESSEGURO_PARAMETRO.cs">
+      <DependentUpon>MSSQLBID0.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TB_ODS_RESSEGURO_SINISTRO.cs">
+      <DependentUpon>MSSQLBID0.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TB_ODS_REVENDA.cs">
+      <DependentUpon>MSSQLBID0.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TB_ODS_REVENDA_COTACAO.cs">
+      <DependentUpon>MSSQLBID0.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TB_ODS_RISCO_SINISTRO.cs">
+      <DependentUpon>MSSQLBID0.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TB_ODS_SEGMENTO.cs">
+      <DependentUpon>MSSQLBID0.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TB_ODS_SEGURADO.cs">
+      <DependentUpon>MSSQLBID0.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TB_ODS_SEGURADORA.cs">
+      <DependentUpon>MSSQLBID0.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TB_ODS_SEQUENCIAL.cs">
+      <DependentUpon>MSSQLBID0.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TB_ODS_SINISTRO.cs">
+      <DependentUpon>MSSQLBID0.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TB_ODS_SISTEMA.cs">
+      <DependentUpon>MSSQLBID0.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TB_ODS_SUB_REGIONAL.cs">
+      <DependentUpon>MSSQLBID0.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TB_ODS_SUCURSAL.cs">
+      <DependentUpon>MSSQLBID0.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TB_ODS_SUN_EVENTOS.cs">
+      <DependentUpon>MSSQLBID0.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TB_ODS_SUN_HISTORICO.cs">
+      <DependentUpon>MSSQLBID0.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TB_ODS_SUN_LANCAMENTOS.cs">
+      <DependentUpon>MSSQLBID0.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TB_ODS_TIPO_COBRANCA.cs">
+      <DependentUpon>MSSQLBID0.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TB_ODS_TIPO_PAGAMENTO_SINISTRO.cs">
+      <DependentUpon>MSSQLBID0.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TB_ODS_TITULOS.cs">
+      <DependentUpon>MSSQLBID0.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TB_ODS_TITULOS_RAMO_ITEM_COBERTURA.cs">
+      <DependentUpon>MSSQLBID0.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TB_ODS_VEICULO_COTACAO.cs">
+      <DependentUpon>MSSQLBID0.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Utils.cs" />
+    <EmbeddedResource Include="View\Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="JiraForm.resx">
+      <DependentUpon>JiraForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -63,6 +525,15 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EntityDeploy Include="MSSQLBID0.edmx">
+      <Generator>EntityModelCodeGenerator</Generator>
+      <LastGenOutput>MSSQLBID0.Designer.cs</LastGenOutput>
+    </EntityDeploy>
+    <None Include="MSSQLBID0.edmx.diagram">
+      <DependentUpon>MSSQLBID0.edmx</DependentUpon>
+    </None>
+    <None Include="packages.config" />
+    <None Include="PlanilhaResseguro_TemporaryKey.pfx" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -75,6 +546,33 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="MSSQLBID0.Context.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>MSSQLBID0.edmx</DependentUpon>
+      <LastGenOutput>MSSQLBID0.Context.cs</LastGenOutput>
+    </Content>
+    <Content Include="MSSQLBID0.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>MSSQLBID0.edmx</DependentUpon>
+      <LastGenOutput>MSSQLBID0.cs</LastGenOutput>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.6.1">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.6.1 %28x86 e x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

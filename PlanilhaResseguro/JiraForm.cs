@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace PlanilhaResseguro
 {
-    public partial class Form1 : Form
+    public partial class JiraForm : Form
     {
-        public Form1()
+        public JiraForm()
         {
             InitializeComponent();
         }
